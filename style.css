@@ -1,9 +1,113 @@
 body {
   background: #23253a;
-  font-family: 'Inter', sans-serif;
-
+  font-family: "Inter", sans-serif;
 }
 header {
+  max-width: 1150px;
+  justify-content: center;
+  gap: 650px;
+  margin: 0 auto;
   background: #212338;
+  /* justify-content: space-around; */
   box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.25);
+}
+.img-main img {
+  width: 704px;
+  height: 550px;
+  margin-bottom: 20px;
+  fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  filter: drop-shadow(40px 40px 50px rgba(0, 0, 0, 0.25));
+}
+.left-main h1 {
+  padding-top: 100px;
+  max-width: 400px;
+  color: #fff;
+  font-size: 42px;
+  font-weight: 400;
+}
+.left-main span {
+  width: 170px;
+  height: 60px;
+  gap: 20px;
+  line-height: 60px;
+  border-radius: 10px;
+  background: #bb2a2f;
+}
+.left-main span p {
+  padding-top: 10px;
+}
+.spans {
+  gap: 10px;
+  margin-top: 58px;
+  cursor: pointer;
+}
+.spans img {
+  margin-left: 15px;
+}
+.nossa {
+  margin-top: 50px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 12px; /* 50% */
+}
+nav ul li a:hover {
+  color: #bb2a2f;
+  border-bottom: 2px solid #bb2a2f;
+}
+.spans p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.nosas {
+  color: #bb2a2f;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 12px;
+}
+.nosas span {
+  border-bottom: 1px solid #bb2a2f;
+}
+.nosas {
+  margin-bottom: 76px;
+}
+.services h3 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 67px;
+  line-height: 12px; /* 37.5% */
+}
+.card-section {
+  gap: 50px;
+  max-width: 1250px;
+}
+.cards {
+  width: 321px;
+  border-radius: 3px;
+  padding: 33px 104px 33px 33px;
+  background: #2b2e41;
+  box-shadow: 40px 40px 40px 0px rgba(0, 0, 0, 0.25);
+}
+.cards img {
+  margin-bottom: 16px;
+}
+.cards h4 {
+  width: 200px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.cards p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.cards h2 {
+  color: #bb2a2f;
+  font-size: 16px;
+  font-weight: 400;
 }
